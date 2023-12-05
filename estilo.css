@@ -1,0 +1,31 @@
+fieldset{
+	border: 2px solid #ff4ac9; 
+    padding: 10px;
+}
+.inputs{
+	border: none; 
+    border-bottom: 2px solid #ff4ac9;
+    padding: 5px; 
+	width: 100%;
+}
+button {
+    width: 48%;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+  }
+
+  #verde {
+    background-color: #f08de3;
+  }
+
+  #salmao {
+    background-color: #eea8fa;
+  }
+  .botoes-container {
+    display: flex;
+    justify-content: space-between;
+  }

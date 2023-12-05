@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastro Geral</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+
+	<body>
+		<fieldset>
+			<legend>Cadastro Geral</legend>
+			<a href="C:\Users\PC\Downloads\trabalho front\index.html" id="menu"><h6>PAGINA INICIAL</h6></a>
+			<a href="C:\Users\PC\Downloads\trabalho front\atividade 2\atividade2.html" id="formu"> <h6>FORMULÁRIO</h6></a>
+			<fieldset>          
+				<legend>Dados Pessoais</legend>
+				Nome Completo: <br>
+				<input type="text" class="inputs" placeholder="Digite seu nome!" id="digite"> <br>
+				
+				Profissão: <br>
+				<select class="inputs">
+					<option disabled selected>Selecione a sua profissão:</option>
+					<option>professor</option>
+					<option>enfermeiro</option>
+					<option>policial</option>
+					<option>agronomo</option>
+					<option>engenheiro</option>
+				</select>
+				<br>
+
+				E-mail: <br>
+				<input type="text" class="inputs" placeholder="Digite o seu E-mail"> <br>
+			</fieldset>
+
+			<fieldset>
+				<legend>Localização</legend>
+				Rua: <br>
+				<input type="text" class="inputs" placeholder="Ex. Rua tal, 1595, Bairro tal"> <br>
+
+				Cidade: <br>
+				<input type="text" class="inputs" placeholder="Digite sua cidade"> <br>
+
+				Estado: <br>
+				<select class="inputs">
+					<option disabled selected>Selecione o seu estado</option>
+					<option>Acre (AC)</option>
+					<!-- ... outras opções ... -->
+					<option>Tocantins (TO)</option>
+				</select>
+			</fieldset>
+
+			<fieldset>
+				<legend>Adicionar embalagem para presente?</legend>
+				<input type="radio" name="faixa">Sim <br>
+				<input type="radio" name="faixa">Não<br>
+			</fieldset>
+
+			<fieldset>
+				<legend>Itens disponíveis para comprar:</legend>
+				<input type="checkbox" id="perfumeFamous" name="esporte" value="1000">Perfume Famous R$ 1000
+				<input type="checkbox" id="perfumeParis" name="esporte" value="1050">Perfume Paris R$ 1050
+				<input type="checkbox" id="perfumeRihanna" name="esporte" value="1900">Perfume Rihanna R$ 1900
+				<input type="checkbox" id="perfumeFashion" name="esporte" value="800">Perfume Fashion R$ 800
+			</fieldset> <br>
+
+			<div class="botoes-container">
+				<button id="verde" onclick="final()">ENVIAR</button> 
+				<button id="salmao" onclick="reiniciar()">LIMPAR DADOS</button>
+			</div>
+
+		</fieldset>
+		
+		<script src="resultado.js"></script>
+	</body>
+</html>
